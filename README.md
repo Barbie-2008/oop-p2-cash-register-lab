@@ -105,6 +105,27 @@ Best Practice documentation steps:
 * Delete any stale branches on GitHub
 * Remove unnecessary/commented out code
 * If needed, update git ignore to remove sensitive data
+# Cash Register Lab (OOP Part 2)
+
+A Python object-oriented programming application modeling a digital cash register system, featuring item tracking, percentage-based discounts, transaction history, and the ability to void previous purchases.
+
+## Features
+- **Item & Quantity Management**: Add items with custom pricing and quantities while automatically tracking running totals.
+- **Validated Discounts**: Enforces integer-based percentage validation (0% to 100%) through property setters.
+- **Transaction History**: Maintains a log of previous transactions for dynamic adjustments.
+- **Voiding & Discounts**: Safely void the last transaction or apply percentage discounts while accurately updating totals and item lists.
+
+## Technologies Used
+- Python 3.10
+- Pytest (for unit testing)
+- Pipenv (for environment and dependency management)
+
+## Running the Tests
+To run the test suite and verify that all requirements pass, execute:
+
+```bash
+pipenv run pytest
+
 
 ## Save your work and push to GitHub
 
