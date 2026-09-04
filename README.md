@@ -105,6 +105,27 @@ Best Practice documentation steps:
 * Delete any stale branches on GitHub
 * Remove unnecessary/commented out code
 * If needed, update git ignore to remove sensitive data
+# Cash Register Lab (OOP Part 2)
+
+A Python object-oriented programming application modeling a digital cash register system, featuring item tracking, percentage-based discounts, transaction history, and the ability to void previous purchases.
+
+## Features
+- **Item & Quantity Management**: Add items with custom pricing and quantities while automatically tracking running totals.
+- **Validated Discounts**: Enforces integer-based percentage validation (0% to 100%) through property setters.
+- **Transaction History**: Maintains a log of previous transactions for dynamic adjustments.
+- **Voiding & Discounts**: Safely void the last transaction or apply percentage discounts while accurately updating totals and item lists.
+
+## Technologies Used
+- Python 3.10
+- Pytest (for unit testing)
+- Pipenv (for environment and dependency management)
+
+## Running the Tests
+To run the test suite and verify that all requirements pass, execute:
+
+```bash
+pipenv run pytest
+
 
 ## Save your work and push to GitHub
 
@@ -120,4 +141,4 @@ Before you submit your solution, you need to save your progress with git.
 3. You can review your submission in CodeGrade and see your final score in your Canvas gradebook.
 4. When you are ready to submit, click the ***Load Lab: Object Oriented Programming (OOP)- Part 2- Cash Register*** button in Canvas to launch CodeGrade.
   * Click on + Create Submission. Connect your repository for this lab.
-  * For additional information on submitting assignments in CodeGrade: [Getting Started in Canvas](https://help.codegrade.com/for-students/getting-started/getting-started-in-canvas).
+  * For additional information on submitting assignments in CodeGrade: [Getting Started in Canvas](https://help.codegrade.com/for-students/getting-started/getting-started-in-canvasSSs).
